@@ -1,0 +1,11 @@
+db.customer.insertOne({id:1, name:"João Raimundo",age:45})
+db.customer.insertOne({id:2, name:"Joana Pestana",age:46})
+db.customer.insertOne({id:3, name:"Roberto Jesus",age:27})
+db.customer.insertOne({id:4, name:"Rui Trainee",age:22})
+db.customer.insertOne({id:5, name:"Vanessa Luz",age:24})
+
+db.addresses.insertOne({cust_id:1, street: 'Avenida da Liberdade', city: 'Lisboa'})
+db.addresses.insertOne({cust_id:2, street: 'Avenida da Boavista', city: 'Porto'})
+db.addresses.insertOne({cust_id:3, street: 'Rua Direita', city: 'Lamego'})
+db.addresses.insertOne({cust_id:4, street: 'Estrada Nova', city: 'Montijo'})
+db.addresses.insertOne({cust_id:5, street: 'Gran Via', city: 'Madrid'})

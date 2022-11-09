@@ -1,0 +1,5 @@
+db.querycollection.insertOne({name:"João Raimundo",age:45,birthdt: new Date('1976-12-13'),team: 'OMI', salary:100000, addresses: [{street: 'Avenida da Liberdade', city: 'Lisboa', country: 'Portugal'} ,{street: '5 Avenida', city: 'Nova York', country: 'USA'}] })
+db.querycollection.insertOne({name:"Joana Pestana",age:46,birthdt: new Date('1976-09-21'),team: 'OMI', salary:145000, addresses: [{street: 'Avenida da Boavista', city: 'Porto', country: 'Portugal'}] })
+db.querycollection.insertOne({name:"Roberto Jesus",age:27,birthdt: new Date('1994-12-07'),team: 'OMI', salary:65000, addresses: [{street: 'Rua Direita', city: 'Lamego', country: 'Portugal'},{street: 'Rua Norte', city: 'Lugo', country: 'Espanha'}]})
+db.querycollection.insertOne({name:"Rui Trainee",age:22,birthdt: new Date('2000-02-22'),team: 'Talent', salary:25000, addresses: [{street: 'Estrada Nova', city: 'Montijo', country: 'Portugal'}] })
+db.querycollection.insertOne({name:"Vanessa Luz",age:24,birthdt: new Date('1998-05-22'),team: 'Talent', salary:35000, addresses: [{street: 'Gran Via', city: 'Madrid', country: 'Espanha'}] })
